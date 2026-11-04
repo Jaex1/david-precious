@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>David Precious Chinenyenwa — Haii Designs</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f5f3ee;--fg:#111;--mute:#6b675f;--line:#dcd8cf;--card:#ebe8e0;--acc:#ff5a1f}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b0b0c;--fg:#f2f0ea;--mute:#8d8a83;--line:#242426;--card:#141415;--acc:#ff6a33}}
+:root[data-theme="dark"]{--bg:#0b0b0c;--fg:#f2f0ea;--mute:#8d8a83;--line:#242426;--card:#141415;--acc:#ff6a33}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}
+.w{max-width:1120px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:26px 0;font-size:14px}
+nav .logo{font-weight:700;letter-spacing:-.02em;font-size:18px}
+nav .logo i{color:var(--acc);font-style:normal}
+nav ul{display:flex;gap:26px;list-style:none;padding:0;color:var(--mute)}
+nav ul a:hover{color:var(--fg)}
+.hero{padding:90px 0 80px;border-bottom:1px solid var(--line)}
+.tag{display:inline-block;font-size:13px;color:var(--mute);border:1px solid var(--line);border-radius:99px;padding:6px 14px;margin-bottom:28px}
+.tag b{color:var(--acc)}
+h1{font-size:clamp(44px,9vw,112px);line-height:.98;letter-spacing:-.045em;font-weight:700;max-width:14ch}
+h1 em{font-style:normal;color:var(--acc)}
+.lead{max-width:560px;color:var(--mute);font-size:18px;margin:32px 0 36px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:14px 26px;border-radius:99px;font-weight:600;font-size:15px;border:1px solid var(--fg)}
+.btn.p{background:var(--fg);color:var(--bg)}
+.btn:hover{background:var(--acc);border-color:var(--acc);color:#fff}
+section{padding:90px 0;border-bottom:1px solid var(--line)}
+.lab{font-size:13px;color:var(--acc);text-transform:uppercase;letter-spacing:.12em;margin-bottom:18px}
+h2{font-size:clamp(30px,5vw,56px);letter-spacing:-.035em;line-height:1.05;max-width:18ch;margin-bottom:48px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:30px;transition:transform .25s,border-color .25s}
+.card:hover{transform:translateY(-4px);border-color:var(--acc)}
+.card .n{font-size:13px;color:var(--mute);margin-bottom:34px;display:block}
+.card h3{font-size:22px;letter-spacing:-.02em;margin-bottom:10px}
+.card p{color:var(--mute);font-size:15px}
+.work{display:grid;gap:18px}
+.proj{display:grid;grid-template-columns:1fr 1fr;gap:30px;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:36px;align-items:end;min-height:300px}
+.proj .t{font-size:clamp(28px,4vw,46px);letter-spacing:-.035em;line-height:1.05;font-weight:700}
+.proj .m{color:var(--mute);font-size:14px;margin-bottom:14px}
+.proj p{color:var(--mute);font-size:15px;margin-bottom:18px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chips span{font-size:12px;border:1px solid var(--line);border-radius:99px;padding:5px 12px;color:var(--mute)}
+.proj:nth-child(1){background:linear-gradient(135deg,var(--card),color-mix(in srgb,var(--acc) 14%,var(--card)))}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:30px}
+.steps div{border-top:1px solid var(--fg);padding-top:18px}
+.steps b{display:block;font-size:18px;margin-bottom:6px}
+.steps p{color:var(--mute);font-size:15px}
+.cta{text-align:left}
+.cta h2{max-width:14ch;font-size:clamp(40px,8vw,96px);margin-bottom:34px}
+footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;padding:30px 0;color:var(--mute);font-size:14px}
+@media(max-width:760px){nav ul{display:none}.proj{grid-template-columns:1fr;padding:26px}.hero{padding:60px 0}section{padding:64px 0}}
+</style>
+</head>
+<body>
+<div class="w">
+<nav><a class="logo" href="#top">Haii<i>.</i>Designs</a>
+<ul><li><a href="#work">Work</a></li><li><a href="#services">Services</a></li><li><a href="#process">Process</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+
+<header class="hero" id="top">
+<span class="tag"><b>●</b> Available for new projects</span>
+<h1>Design that looks sharp. <em>Systems</em> that run themselves.</h1>
+<p class="lead">I’m David Precious Chinenyenwa, a creative designer and automation specialist in Lagos, Nigeria. I build brand identities, digital products and n8n-powered workflows for teams that want to look premium and work smarter.</p>
+<div class="btns"><a class="btn p" href="#work">View selected work</a><a class="btn" href="#contact">Start a project</a></div>
+</header>
+
+<section id="work">
+<div class="lab">Selected work</div>
+<h2>Projects where design meets function.</h2>
+<div class="work">
+<article class="proj"><div><div class="m">Brand · Product design</div><div class="t">Adie Care</div></div>
+<div><p>A poultry farm management app for the Nigerian market. Founded and designed end to end, from brand identity to product experience.</p><div class="chips"><span>Brand identity</span><span>UI/UX</span><span>Mobile app</span></div></div></article>
+<article class="proj"><div><div class="m">Automation · Agency work</div><div class="t">Bricks 4 Kidz Automation</div></div>
+<div><p>GoHighLevel automation infrastructure for Bricks 4 Kidz franchises, delivered through Figment Five.</p><div class="chips"><span>GoHighLevel</span><span>CRM workflows</span><span>Franchise systems</span></div></div></article>
+<article class="proj"><div><div class="m">Automation · Content</div><div class="t">YouTube Shorts Engine</div></div>
+<div><p>An n8n pipeline that handles transcription, scripting, image and voice generation, rendering and upload without manual steps.</p><div class="chips"><span>n8n</span><span>AI generation</span><span>Video</span></div></div></article>
+</div>
+</section>
+
+<section id="services">
+<div class="lab">Services</div>
+<h2>One partner for the look and the engine behind it.</h2>
+<div class="grid">
+<a class="card" href="https://logo01.mystrikingly.com/" target="_blank" rel="noopener"><span class="n">01 ↗</span><h3>Brand identity</h3><p>Logos, visual systems and guidelines that make a business instantly recognisable.</p></a>
+<div class="card"><span class="n">02</span><h3>UI/UX design</h3><p>Clean, conversion-minded interfaces for websites, web apps and mobile products.</p></div>
+<div class="card"><span class="n">03</span><h3>n8n automation</h3><p>Custom workflows that connect your tools and remove repetitive work.</p></div>
+<div class="card"><span class="n">04</span><h3>Web &amp; mobile development</h3><p>Design carried through to a working, polished build.</p></div>
+<div class="card"><span class="n">05</span><h3>Video &amp; AI video editing</h3><p>Short-form and branded video, accelerated with AI-assisted editing.</p></div>
+<div class="card"><span class="n">06</span><h3>Sales &amp; marketing</h3><p>Positioning, outreach and campaign support that turns attention into leads.</p></div>
+</div>
+</section>
+
+<section id="process">
+<div class="lab">Process</div>
+<h2>Simple, clear, and built to ship.</h2>
+<div class="steps">
+<div><b>1. Discover</b><p>We define goals, audience and what success looks like.</p></div>
+<div><b>2. Design</b><p>Concepts and systems refined with your feedback.</p></div>
+<div><b>3. Build</b><p>Interfaces, automations and assets made production-ready.</p></div>
+<div><b>4. Launch</b><p>Handover, support and room to grow.</p></div>
+</div>
+</section>
+
+<section class="cta" id="contact">
+<div class="lab">Contact</div>
+<h2>Let’s build something great.</h2>
+<div class="btns"><a class="btn p" href="mailto:">Send an email</a><a class="btn" href="https://www.upwork.com" rel="noopener">Hire on Upwork</a></div>
+</section>
+
+<footer><span>© 2026 David Precious Chinenyenwa</span><span>Haii Designs · Lagos, Nigeria</span></footer>
+</div>
+</body>
+</html>
